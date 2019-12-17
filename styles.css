@@ -1,0 +1,57 @@
+* {
+  font-family: 'Inria Serif', serif;
+  background-color: #D8E62E ;
+}
+
+.item {
+  border: 1px solid black;
+}
+
+header {
+  height: 80px;
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Girassol', cursive;
+  font-size: 80px; 
+}
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 10rem);
+  grid-gap: 1rem;
+}
+
+p {
+  font-weight: bold;
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+}
+
+li {
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Girassol', cursive; 
+}
+
+tr,
+td,
+tbody {
+  border: solid 1px gray;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+thead {
+  background-color: gray;
+}
